@@ -1,0 +1,24 @@
+HardwareShader PostProcess Screen 
+{
+	Name 	"VHSCRTShader"
+	Shader 	"shaders/VHSCRTShader.frag" 330
+	
+	Uniform int 	VHSEnable
+	Uniform int 	CRTEnable
+	Uniform float 	iTime
+	Uniform float 	range
+	Uniform float 	noiseQuality
+	Uniform float 	noiseIntensity
+	Uniform float 	offsetIntensity
+	Uniform float 	colorOffsetIntensity
+	Uniform float 	lineCount
+	Uniform float 	lineSpeed
+	Uniform int 	lineEnable
+	Uniform int 	CRThardScan
+	Uniform int 	warpEnable
+	Uniform int 	warpMultX
+	Uniform int 	warpMultY
+	Uniform float 	grainIntensity
+	Uniform float 	contrast
+	Uniform float 	saturation
+}

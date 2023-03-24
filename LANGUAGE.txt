@@ -1,0 +1,43 @@
+[enu]
+MOD_INTRO = "VHS&CRT Shader Mod by DRON12261";
+M_MODSHADER_TITLE = "Shader Settings";
+CV_SHENABLE_OPTION = "Enable Shader";
+CV_VHSENABLE_OPTION = "Enable VHS effect";
+CV_VHSNOISEQUAL_OPTION = "Noise Quality (VHS)";
+CV_VHSNOISEINT_OPTION = "Noise Offset (VHS)";
+CV_VHSOFFINT_OPTION = "Offset Intensity (VHS)";
+CV_VHSCOLOROFF_OPTION = "Color Offset (VHS)";
+CV_VHSLINEEN_OPTION = "Enable White Lines (VHS)";
+CV_VHSLINECNT_OPTION = "Number of Lines (VHS)";
+CV_VHSLINESPD_OPTION = "Line Speed ​​(VHS)";
+CV_CRTENABLE_OPTION = "Enable CRT effect";
+CV_CRTHARDSCAN_OPTION = "Line Size (CRT)";
+CV_WARPENABLE_OPTION = "Enable Warp Screen Effect";
+CV_WARPMULTX_OPTION = "Warp Screen Offset X";
+CV_WARPMULTY_OPTION = "Warp Screen Offset Y";
+CV_GRAININT_OPTION = "Film Grain";
+CV_CONTRAST_OPTION = "Contrast (shader)";
+CV_SATURATION_OPTION = "Saturation";
+AL_RESETSHADERSETTINGS = "Reset settings";
+
+[ru]
+MOD_INTRO = "VHS&CRT Shader Mod от DRON12261";
+M_MODSHADER_TITLE = "Настройки шейдера";
+CV_SHENABLE_OPTION = "Включить шейдер";
+CV_VHSENABLE_OPTION = "Включить эффект VHS";
+CV_VHSNOISEQUAL_OPTION = "Качество шума (VHS)";
+CV_VHSNOISEINT_OPTION = "Смещение шума (VHS)";
+CV_VHSOFFINT_OPTION = "Интенсивность смещения (VHS)";
+CV_VHSCOLOROFF_OPTION = "Цветное смещение (VHS)";
+CV_VHSLINEEN_OPTION = "Включить белые линии (VHS)";
+CV_VHSLINECNT_OPTION = "Количество линий (VHS)";
+CV_VHSLINESPD_OPTION = "Скорость линий (VHS)";
+CV_CRTENABLE_OPTION = "Включить эффект CRT";
+CV_CRTHARDSCAN_OPTION = "Размер линии (CRT)";
+CV_WARPENABLE_OPTION = "Включить эффект выпуклого экрана";
+CV_WARPMULTX_OPTION = "Смещение выпуклого экрана по X";
+CV_WARPMULTY_OPTION = "Смещение выпуклого экрана по Y";
+CV_GRAININT_OPTION = "Зернистость пленки";
+CV_CONTRAST_OPTION = "Контраст (шейдер)";
+CV_SATURATION_OPTION = "Сатурация";
+AL_RESETSHADERSETTINGS = "Сбросить настройки";

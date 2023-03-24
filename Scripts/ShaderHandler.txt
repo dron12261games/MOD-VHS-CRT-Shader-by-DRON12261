@@ -1,0 +1,52 @@
+class ShaderHandler : StaticEventHandler 
+{
+	override void RenderOverlay(RenderEvent e) 
+	{
+		PlayerInfo p = players[consoleplayer];
+		Shader.SetUniform1f(p, "VHSCRTShader", "iTime", (gametic + e.FracTic) / 35);
+		
+		bool shaderEnabled 	= CVar.GetCVar("SH_ShaderEnable", p).GetBool();
+		int VHSEnable 		= int(CVar.GetCVar("SH_VHSEnable", p).GetBool());
+		int CRTEnable 		= int(CVar.GetCVar("SH_CRTEnable", p).GetBool());
+		
+		float Range 				= CVar.GetCVar("SH_VHSRange", p).GetFloat();
+		float NoiseQuality 			= CVar.GetCVar("SH_VHSNoiseQuality", p).GetFloat();
+		float NoiseIntensity 		= CVar.GetCVar("SH_VHSNoiseIntensity", p).GetFloat();
+		float OffsetIntensity 		= CVar.GetCVar("SH_VHSOffsetIntensity", p).GetFloat();
+		float ColorOffsetIntensity 	= CVar.GetCVar("SH_VHSColorOffsetIntensity", p).GetFloat();
+		float LineCount 			= CVar.GetCVar("SH_VHSLineCount", p).GetFloat();
+		float LineSpeed 			= CVar.GetCVar("SH_VHSLineSpeed", p).GetFloat();
+		int LineEnable 				= int(CVar.GetCVar("SH_VHSLineEnable", p).GetBool());
+		int CRThardScan 			= CVar.GetCVar("SH_CRTHardScan", p).GetInt();
+		int warpEnable 				= int(CVar.GetCVar("SH_WarpEnable", p).GetBool());
+		int warpMultX 				= CVar.GetCVar("SH_WarpMultX", p).GetInt();
+		int warpMultY 				= CVar.GetCVar("SH_WarpMultY", p).GetInt();
+		float grainIntensity 		= CVar.GetCVar("SH_GrainIntensity", p).GetFloat();
+		float contrast			 	= CVar.GetCVar("SH_Contrast", p).GetFloat();
+		float saturation 			= CVar.GetCVar("SH_Saturation", p).GetFloat();
+	
+		if (warpMultX <= 0) warpMultX = 1;
+		if (warpMultY <= 0) warpMultY = 1;
+		if (contrast < 0.1) contrast = 0.1;
+	
+		Shader.SetUniform1f(p, "VHSCRTShader", "VHSEnable", 			VHSEnable);
+		Shader.SetUniform1f(p, "VHSCRTShader", "CRTEnable", 			CRTEnable);
+		Shader.SetUniform1f(p, "VHSCRTShader", "noiseQuality", 			NoiseQuality);
+		Shader.SetUniform1f(p, "VHSCRTShader", "noiseIntensity", 		NoiseIntensity);
+		Shader.SetUniform1f(p, "VHSCRTShader", "offsetIntensity", 		OffsetIntensity);
+		Shader.SetUniform1f(p, "VHSCRTShader", "colorOffsetIntensity", 	ColorOffsetIntensity);
+		Shader.SetUniform1f(p, "VHSCRTShader", "lineCount", 			LineCount);
+		Shader.SetUniform1f(p, "VHSCRTShader", "lineSpeed", 			LineSpeed);
+		Shader.SetUniform1f(p, "VHSCRTShader", "lineEnable", 			LineEnable);
+		Shader.SetUniform1f(p, "VHSCRTShader", "CRThardScan", 			CRThardScan);
+		Shader.SetUniform1f(p, "VHSCRTShader", "warpEnable", 			warpEnable);
+		Shader.SetUniform1f(p, "VHSCRTShader", "warpMultX", 			warpMultX);
+		Shader.SetUniform1f(p, "VHSCRTShader", "warpMultY", 			warpMultY);
+		Shader.SetUniform1f(p, "VHSCRTShader", "grainIntensity", 		grainIntensity);
+		Shader.SetUniform1f(p, "VHSCRTShader", "contrast", 				contrast);
+		Shader.SetUniform1f(p, "VHSCRTShader", "saturation", 			saturation);
+		
+		if (shaderEnabled) 	Shader.SetEnabled(p, "VHSCRTShader", true);
+		else 				Shader.SetEnabled(p, "VHSCRTShader", false);
+	}
+}

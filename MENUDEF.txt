@@ -1,0 +1,49 @@
+AddOptionMenu "OptionsMenu"
+{
+	StaticText ""
+	StaticText ""
+	StaticText ""
+	
+	StaticText "$MOD_INTRO"
+	SubMenu "$M_MODSHADER_TITLE","ModShader"
+}
+
+OptionMenu "ModShader"
+{
+	Title "$M_MODSHADER_TITLE"
+	
+	Option "$CV_SHENABLE_OPTION", "SH_ShaderEnable", "OnOff"
+	
+	StaticText ""
+	
+	Option "$CV_VHSENABLE_OPTION", "SH_VHSEnable", "OnOff"
+	Slider "$CV_VHSNOISEQUAL_OPTION", "SH_VHSNoiseQuality", 1.0, 500.0, 0.1, 1
+	Slider "$CV_VHSNOISEINT_OPTION", "SH_VHSNoiseIntensity", 0.0, 0.015, 0.001, 3
+	Slider "$CV_VHSOFFINT_OPTION", "SH_VHSOffsetIntensity", 0.0, 0.05, 0.001, 3
+	Slider "$CV_VHSCOLOROFF_OPTION", "SH_VHSColorOffsetIntensity", 0.0, 2.0, 0.1, 1
+	Option "$CV_VHSLINEEN_OPTION", "SH_VHSLineEnable", "OnOff"
+	Slider "$CV_VHSLINECNT_OPTION", "SH_VHSLineCount", 250, 10000, 1, 0
+	Slider "$CV_VHSLINESPD_OPTION", "SH_VHSLineSpeed", 1.0, 10.0, 0.1, 1
+	
+	StaticText ""
+	
+	Option "$CV_CRTENABLE_OPTION", "SH_CRTEnable", "OnOff"
+	Slider "$CV_CRTHARDSCAN_OPTION", "SH_CRTHardScan", 1, 100, 1, 0
+	
+	StaticText ""
+	
+	Option "$CV_WARPENABLE_OPTION", "SH_WarpEnable", "OnOff"
+	Slider "$CV_WARPMULTX_OPTION", "SH_WarpMultX", 1, 100, 1, 0
+	Slider "$CV_WARPMULTY_OPTION", "SH_WarpMultY", 1, 100, 1, 0
+	Slider "$CV_GRAININT_OPTION", "SH_GrainIntensity", 0.0, 1.0, 0.01, 2
+	Slider "$CV_CONTRAST_OPTION", "SH_Contrast", 0.0, 5.0, 0.01, 2
+	Slider "$CV_SATURATION_OPTION", "SH_Saturation", 0.0, 3.0, 0.01, 2
+	
+	StaticText ""
+	
+	Command "$AL_RESETSHADERSETTINGS", "SHA_ResetToDefault"
+	
+	StaticText ""
+	
+	StaticText "$MOD_INTRO"
+}
