@@ -2,7 +2,9 @@
 
 # STATUS: ✅RELEASED
 
-The shader works on the GZDoom and LZDoom ports.
+A mod with a detailed customizable in-game shader that simulates VHS and CRT effects.
+
+Works on the GZDoom and LZDoom ports.
 
 There are a huge number of settings in a special menu.
 There is also support for English and Russian languages.
