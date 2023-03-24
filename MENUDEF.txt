@@ -1,9 +1,5 @@
 AddOptionMenu "OptionsMenu"
 {
-	StaticText ""
-	StaticText ""
-	StaticText ""
-	
 	StaticText "$MOD_INTRO"
 	SubMenu "$M_MODSHADER_TITLE","ModShader"
 }
