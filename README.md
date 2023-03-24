@@ -2,15 +2,18 @@
 
 # STATUS: ✅RELEASED
 
+The shader works on the GZDoom and LZDoom ports.
+
+There are a huge number of settings in a special menu.
+There is also support for English and Russian languages.
+
+For best effect, it is not recommended to use both CRT effect and VHS effect at the same time. 
+It is also recommended to play at 640x480 resolution.
+
 ### Download - [Latest Release](https://github.com/Doom-Mapping-Modding-Lair-DRON12261/WAD-Hotel-of-the-Dead/releases/latest/download/HOTDv4.zip)
 
 ## CREDITS
 The author of the mod - DRON12261.
-
-The shader works on the GZDoom and LZDoom ports.
-
-For best effect, it is not recommended to use both CRT effect and VHS effect at the same time. 
-It is also recommended to play at 640x480 resolution.
 
 The shader mod code was based on the following sources:
 - FixingPixelArt by Timothy Lottes:
