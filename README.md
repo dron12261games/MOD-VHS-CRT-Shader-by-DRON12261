@@ -12,7 +12,7 @@ There is also support for English and Russian languages.
 For best effect, it is not recommended to use both CRT effect and VHS effect at the same time. 
 It is also recommended to play at 640x480 resolution.
 
-### Download - [Latest Release](https://github.com/Doom-Mapping-Modding-Lair-DRON12261/MOD-VHS-CRT-Shader-by-DRON12261/releases/latest/download/VHS.CRT.Shader.Mod.by.DRON12261.v1.pk3)
+### Download - [Latest Release](https://github.com/Doom-Mapping-Modding-Lair-DRON12261/MOD-VHS-CRT-Shader-by-DRON12261/releases/latest/download/VHS.CRT.Shader.Mod.by.DRON12261.v2.pk3)
 
 ## CREDITS
 The author of the mod - DRON12261.
