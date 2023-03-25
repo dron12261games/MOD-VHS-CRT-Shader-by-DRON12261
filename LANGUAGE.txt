@@ -1,5 +1,5 @@
 [enu]
-MOD_INTRO = "VHS&CRT Shader Mod by DRON12261";
+MOD_INTRO = "VHS&CRT Shader Mod v2 by DRON12261";
 M_MODSHADER_TITLE = "Shader Settings";
 CV_SHENABLE_OPTION = "Enable Shader";
 CV_VHSENABLE_OPTION = "Enable VHS effect";
@@ -21,7 +21,7 @@ CV_SATURATION_OPTION = "Saturation";
 AL_RESETSHADERSETTINGS = "Reset settings";
 
 [ru]
-MOD_INTRO = "VHS&CRT Shader Mod от DRON12261";
+MOD_INTRO = "VHS&CRT Shader Mod v2 от DRON12261";
 M_MODSHADER_TITLE = "Настройки шейдера";
 CV_SHENABLE_OPTION = "Включить шейдер";
 CV_VHSENABLE_OPTION = "Включить эффект VHS";
