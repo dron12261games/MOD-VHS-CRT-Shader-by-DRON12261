@@ -29,9 +29,9 @@ https://www.shadertoy.com/view/Ms3XWH
 
 ## Demonstration
 
-![Screen1](https://i.ibb.co/F6dry5H/Screenshot-Doom-20230324-215428.png)
-![Screen2](https://i.ibb.co/L1TtCR5/Screenshot-Doom-20230324-215443.png)
-![Screen3](https://i.ibb.co/V9MYG5B/Screenshot-Doom-20230324-201217.png)
-![Screen4](https://i.ibb.co/G0dmCNn/Screenshot-Doom-20230324-201254.png)
-![Screen5](https://i.ibb.co/80LzRhk/Screenshot-Doom-20230324-201326.png)
-![Screen6](https://i.ibb.co/MPtvTvL/123.png)
+![Screen1](./screens/1.png)
+![Screen2](./screens/2.png)
+![Screen3](./screens/3.png)
+![Screen4](./screens/4.png)
+![Screen5](./screens/5.png)
+![Screen6](./screens/6.png)
